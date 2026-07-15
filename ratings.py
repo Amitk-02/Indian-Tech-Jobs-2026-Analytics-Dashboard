@@ -3,8 +3,6 @@ def rate():
     from streamlit_option_menu import option_menu
     import pandas as pd
     import plotly.express as px
-    import Home
-    import Companies
 
     df = pd.read_csv("cleaned_indian_tech_jobs_2026.csv")
 
