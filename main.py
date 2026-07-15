@@ -5,7 +5,7 @@ import plotly.express as px
 import Home
 import Companies
 import ratings
-import locations
+import loc
 import roles
 import experience
 import skills
@@ -57,7 +57,7 @@ elif selected == "Ratings":
     ratings.rate()
 
 elif selected == "Locations":
-    locations.loc()
+    loc.loc()
 
 elif selected == "Roles":
     roles.role()
