@@ -112,7 +112,7 @@ def app():
             </div>
             """, unsafe_allow_html=True)
 
-st.markdown("---")
+    st.markdown("---")
 
     # ==========================
     # Dashboard Overview
