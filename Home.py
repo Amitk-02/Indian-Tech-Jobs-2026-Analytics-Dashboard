@@ -111,3 +111,152 @@ def app():
                 <div class="kpi-value">{value}</div>
             </div>
             """, unsafe_allow_html=True)
+
+st.markdown("---")
+
+    # ==========================
+    # Dashboard Overview
+    # ==========================
+
+    st.info("""
+    Welcome to the **Indian Tech Jobs Analytics Dashboard 2026**.
+
+    This interactive dashboard analyzes **22,000+ technology job listings** across India to uncover hiring trends,
+    salary insights, skill demand, company hiring patterns, work modes, and geographical opportunities.
+    Navigate through the dashboard to explore valuable insights that can support job seekers, students,
+    and recruiters.
+    """)
+
+    st.markdown("")
+
+    # ==========================
+    # Objectives & Explore
+    # ==========================
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("### 🎯 Dashboard Objectives")
+
+        st.markdown("""
+    - ✅ Analyze hiring trends
+    - ✅ Discover top hiring companies
+    - ✅ Identify in-demand skills
+    - ✅ Explore experience requirements
+    - ✅ Understand work mode distribution
+    """)
+
+    with col2:
+        st.markdown("### 📊 What You'll Explore")
+
+        st.markdown("""
+    - 🏢 Company Insights
+    - 📍 Location Analysis
+    - 🧠 Skills Analysis
+    - 👨‍💻 Experience Analysis
+    - 🌐 Work Mode Analysis
+    """)
+
+    st.markdown("---")
+
+    # ==========================
+    # Dataset Summary
+    # ==========================
+
+    st.markdown("## 📂 Dataset Summary")
+
+    c1, c2, c3, c4 = st.columns(4)
+
+    with c1:
+        st.success("""
+    ### 📄 Records
+
+    22,699+
+    Job Listings
+    """)
+
+    with c2:
+        st.success("""
+    ### 🧩 Features
+
+    31
+    Dataset Columns
+    """)
+
+    with c3:
+        st.success("""
+    ### 📍 Coverage
+
+    Multiple
+    Indian Cities
+    """)
+
+    with c4:
+        st.success("""
+    ### 🏢 Includes
+
+    Companies,
+    Skills & Work Mode
+    """)
+
+    st.markdown("---")
+
+    # ==========================
+    # Key Insights
+    # ==========================
+
+    st.markdown("## 💡 Key Insights")
+
+    st.markdown("""
+    - 📌 Explore hiring patterns across India's leading technology companies.
+
+    - 📌 Compare salary ranges across different job categories.
+
+    - 📌 Discover the most in-demand technical skills.
+
+    - 📌 Analyze hiring opportunities by city and work mode.
+
+    - 📌 Understand experience-level requirements across industries.
+
+    - 📌 Evaluate company ratings and recruitment trends.
+    """)
+
+    st.markdown("---")
+
+    st.markdown("## 🚀 Dashboard Sections")
+
+    # Row 1
+    col1, col2, col3 = st.columns(3, gap="large")
+
+    with col1:
+        st.info("🏠 **Home**")
+
+    with col2:
+        st.info("🏢 **Companies**")
+
+    with col3:
+        st.info("⭐ **Ratings**")
+
+    # Row 2
+    col4, col5, col6 = st.columns(3, gap="large")
+
+    with col4:
+        st.info("📍 **Locations**")
+
+    with col5:
+        st.info("💼 **Roles**")
+
+    with col6:
+        st.info("🕒 **Experience & Work Mode**")
+
+    # Row 3
+    col7, col8, col9 = st.columns(3, gap="large")
+
+    with col7:
+        st.info("🛠️ **Skills**")
+
+    with col8:
+        st.info("👨‍🎓 **Freshers Insights**")
+
+    with col9:
+        st.info("🗂️ **Cleaned Dataset**")
